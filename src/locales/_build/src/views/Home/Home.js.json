@@ -1,0 +1,18 @@
+{
+  "Welcome to the {0} Portal": {
+    "origin": [
+      [
+        "src/views/Home/Home.js",
+        32
+      ]
+    ]
+  },
+  "Go to Portal": {
+    "origin": [
+      [
+        "src/views/Home/Home.js",
+        37
+      ]
+    ]
+  }
+}

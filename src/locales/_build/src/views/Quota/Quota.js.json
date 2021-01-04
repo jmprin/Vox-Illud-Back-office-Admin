@@ -1,0 +1,74 @@
+{
+  "Quota": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        84
+      ]
+    ]
+  },
+  "Subject": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        88
+      ]
+    ]
+  },
+  "The content of your mail": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        95
+      ]
+    ]
+  },
+  "Send": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        102
+      ]
+    ]
+  },
+  "Refresh": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        110
+      ]
+    ]
+  },
+  "Remaining:": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        113
+      ]
+    ]
+  },
+  "Quota:": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        113
+      ]
+    ]
+  },
+  "Need more time?": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        115
+      ]
+    ]
+  },
+  "Contact Us": {
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        115
+      ]
+    ]
+  }
+}

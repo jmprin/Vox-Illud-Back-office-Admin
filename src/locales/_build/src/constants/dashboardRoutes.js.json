@@ -1,0 +1,50 @@
+{
+  "Dashboard": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        10
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        11
+      ]
+    ]
+  },
+  "Quota": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        16
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        17
+      ]
+    ]
+  },
+  "Profile": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        22
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        23
+      ]
+    ]
+  },
+  "Sponsorship": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        28
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        29
+      ]
+    ]
+  }
+}

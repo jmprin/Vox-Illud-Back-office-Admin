@@ -1,0 +1,26 @@
+{
+  "You are now sponsored by": {
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        45
+      ]
+    ]
+  },
+  "Sponsor confirmed": {
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        117
+      ]
+    ]
+  },
+  "Return to dashboard": {
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        120
+      ]
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "First Name": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        24
+      ]
+    ]
+  },
+  "Last Name": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        33
+      ]
+    ]
+  },
+  "E-Mail": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        42
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        49
+      ]
+    ]
+  },
+  "Password Again": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        56
+      ]
+    ]
+  },
+  "Create my account": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        63
+      ]
+    ]
+  }
+}

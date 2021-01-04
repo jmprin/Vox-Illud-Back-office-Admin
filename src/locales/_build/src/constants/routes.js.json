@@ -1,0 +1,34 @@
+{
+  "Home": {
+    "origin": [
+      [
+        "src/constants/routes.js",
+        10
+      ]
+    ]
+  },
+  "Sign In": {
+    "origin": [
+      [
+        "src/constants/routes.js",
+        16
+      ]
+    ]
+  },
+  "Sign Up": {
+    "origin": [
+      [
+        "src/constants/routes.js",
+        21
+      ]
+    ]
+  },
+  "Sponsor Confirmation": {
+    "origin": [
+      [
+        "src/constants/routes.js",
+        26
+      ]
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "Vox Illud",
+    "logo": ""
+  },
+  "api": {
+    "url": {
+      "dev": "http://localhost:1337",
+      "prod": "https://omini-api.azurewebsites.net"
+    }
+  }
+}

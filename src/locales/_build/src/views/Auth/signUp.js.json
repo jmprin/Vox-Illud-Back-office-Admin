@@ -1,0 +1,26 @@
+{
+  "Welcome to the {0} Portal": {
+    "origin": [
+      [
+        "src/views/Auth/signUp.js",
+        79
+      ]
+    ]
+  },
+  "You have to create your account to continue": {
+    "origin": [
+      [
+        "src/views/Auth/signUp.js",
+        80
+      ]
+    ]
+  },
+  "Sign In": {
+    "origin": [
+      [
+        "src/views/Auth/signUp.js",
+        83
+      ]
+    ]
+  }
+}

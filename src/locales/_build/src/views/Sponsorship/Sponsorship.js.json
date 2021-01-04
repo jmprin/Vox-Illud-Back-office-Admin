@@ -1,0 +1,82 @@
+{
+  "The Sponsorship System": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        68
+      ]
+    ]
+  },
+  "{0} offers you the possibility to sponsor a particular user. This allows the person to join our launching program and benefit from advantages once the fully-featured commercial edition launches.": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        69
+      ]
+    ]
+  },
+  "In order to sponsor someone, you have to:": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        70
+      ]
+    ]
+  },
+  "Enter the E-mail adress of the person you want to sponsor, a mail will be sent to his/her mailbox": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        72
+      ]
+    ]
+  },
+  "Once the person has clicked your link, his/her account will be recognized as one of the person you sponsored, and you both will benefit from advantages such as bonus quota, or discounts.": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        73
+      ]
+    ]
+  },
+  "E-Mail of the person you want to sponsor": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        81
+      ]
+    ]
+  },
+  "Sponsor": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        87
+      ]
+    ]
+  },
+  "My Sponsored Users": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        93
+      ]
+    ]
+  },
+  "Refresh": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        94
+      ]
+    ]
+  },
+  "Loading...": {
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        96
+      ]
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "Contact Us": {
+    "translation": "Contactez-nous",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        115
+      ]
+    ]
+  },
+  "Create my account": {
+    "translation": "Créer mon compte",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        63
+      ]
+    ]
+  },
+  "Dashboard": {
+    "translation": "Portail",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        10
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        11
+      ]
+    ]
+  },
+  "E-Mail": {
+    "translation": "E-Mail",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        18
+      ],
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        42
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        38
+      ]
+    ]
+  },
+  "E-Mail of the person you want to sponsor": {
+    "translation": "E-Mail de votre futur filleul",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        81
+      ]
+    ]
+  },
+  "Enter the E-mail adress of the person you want to sponsor, a mail will be sent to his/her mailbox": {
+    "translation": "Entrez l'adresse E-Mail de l'utilisateur que vous souhaitez parrainer, et un mail contenant le lien de confirmation leur sera alors transmis.",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        72
+      ]
+    ]
+  },
+  "First Name": {
+    "translation": "Prénom",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        24
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        20
+      ]
+    ]
+  },
+  "Go to Portal": {
+    "translation": "Accéder au Portail",
+    "origin": [
+      [
+        "src/views/Home/Home.js",
+        37
+      ]
+    ]
+  },
+  "Home": {
+    "translation": "Accueil",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        10
+      ]
+    ]
+  },
+  "In order to sponsor someone, you have to:": {
+    "translation": "Pour parrainer un autre utilisateur, vous devez:",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        70
+      ]
+    ]
+  },
+  "Last Name": {
+    "translation": "Nom",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        33
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        29
+      ]
+    ]
+  },
+  "Loading...": {
+    "translation": "Chargement...",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        96
+      ]
+    ]
+  },
+  "Login": {
+    "translation": "Se connecter",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        41
+      ]
+    ]
+  },
+  "My Sponsored Users": {
+    "translation": "Mes filleuls",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        93
+      ]
+    ]
+  },
+  "Need more time?": {
+    "translation": "Besoin de plus de temps ?",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        115
+      ]
+    ]
+  },
+  "Once the person has clicked your link, his/her account will be recognized as one of the person you sponsored, and you both will benefit from advantages such as bonus quota, or discounts.": {
+    "translation": "Une fois que la personne a accepté votre invitation, son compte deviendra l'un de vos filleurs, et vous pourrez alors tous profiter d'avantages comme du quota en bonus, ou encore des réductions.",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        73
+      ]
+    ]
+  },
+  "Password": {
+    "translation": "Mot de passe",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        25
+      ],
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        49
+      ]
+    ]
+  },
+  "Password Again": {
+    "translation": "Confirmation du mot de passe",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        56
+      ]
+    ]
+  },
+  "Profile": {
+    "translation": "Profil",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        22
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        23
+      ]
+    ]
+  },
+  "Quota": {
+    "translation": "Quota",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        16
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        17
+      ],
+      [
+        "src/views/Quota/Quota.js",
+        84
+      ]
+    ]
+  },
+  "Quota:": {
+    "translation": "Quota:",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        113
+      ]
+    ]
+  },
+  "Refresh": {
+    "translation": "Actualiser",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        110
+      ],
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        94
+      ]
+    ]
+  },
+  "Remaining:": {
+    "translation": "Restant",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        113
+      ]
+    ]
+  },
+  "Remember me": {
+    "translation": "Se souvenir de moi",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        33
+      ],
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        38
+      ]
+    ]
+  },
+  "Return to dashboard": {
+    "translation": "Accueil",
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        120
+      ]
+    ]
+  },
+  "Send": {
+    "translation": "Envoyer",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        102
+      ]
+    ]
+  },
+  "Sign In": {
+    "translation": "Se connecter",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        16
+      ],
+      [
+        "src/views/Auth/signUp.js",
+        83
+      ]
+    ]
+  },
+  "Sign Up": {
+    "translation": "Se créer un compte",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        21
+      ],
+      [
+        "src/views/Auth/signIn.js",
+        74
+      ]
+    ]
+  },
+  "Sponsor": {
+    "translation": "Parrainer",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        87
+      ]
+    ]
+  },
+  "Sponsor Confirmation": {
+    "translation": "Confirmation du parrainage",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        26
+      ]
+    ]
+  },
+  "Sponsor confirmed": {
+    "translation": "Parrainage Confirmé",
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        117
+      ]
+    ]
+  },
+  "Sponsorship": {
+    "translation": "Parrainage",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        28
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        29
+      ]
+    ]
+  },
+  "Subject": {
+    "translation": "Objet",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        88
+      ]
+    ]
+  },
+  "The Sponsorship System": {
+    "translation": "Système de parrainage",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        68
+      ]
+    ]
+  },
+  "The content of your mail": {
+    "translation": "Contenu du mail",
+    "origin": [
+      [
+        "src/views/Quota/Quota.js",
+        95
+      ]
+    ]
+  },
+  "Update my Profile": {
+    "translation": "Mettre à jour mon profil",
+    "origin": [
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        45
+      ]
+    ]
+  },
+  "Welcome to the {0} Portal": {
+    "translation": "Bienvenue sur le portail {0}",
+    "origin": [
+      [
+        "src/views/Auth/signIn.js",
+        70
+      ],
+      [
+        "src/views/Auth/signUp.js",
+        79
+      ],
+      [
+        "src/views/Dashboard/Dashboard.js",
+        20
+      ],
+      [
+        "src/views/Home/Home.js",
+        32
+      ]
+    ]
+  },
+  "You are now sponsored by": {
+    "translation": "Vous êtes désormais sponsorisé par",
+    "origin": [
+      [
+        "src/views/Sponsorship/ConfirmSponsor/ConfirmSponsor.js",
+        45
+      ]
+    ]
+  },
+  "You have to create your account to continue": {
+    "translation": "Créez votre compte avant de continuer",
+    "origin": [
+      [
+        "src/views/Auth/signUp.js",
+        80
+      ]
+    ]
+  },
+  "You have to sign in to continue": {
+    "translation": "Connectez-vous pour continuer",
+    "origin": [
+      [
+        "src/views/Auth/signIn.js",
+        71
+      ]
+    ]
+  },
+  "{0} offers you the possibility to sponsor a particular user. This allows the person to join our launching program and benefit from advantages once the fully-featured commercial edition launches.": {
+    "translation": "{0} vous offre la possibilité de parrainer d'autres utilisateurs, ce qui permet à votre filleul de rejoindre notre programme de test et à vous-même de bénéficier d'avantages lorsque la version commerciale du logiciel sortira.",
+    "origin": [
+      [
+        "src/views/Sponsorship/Sponsorship.js",
+        69
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "E-Mail": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        18
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        25
+      ]
+    ]
+  },
+  "Remember me": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        33
+      ],
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        38
+      ]
+    ]
+  },
+  "Login": {
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        41
+      ]
+    ]
+  }
+}
