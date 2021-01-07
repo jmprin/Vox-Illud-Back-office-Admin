@@ -1,0 +1,50 @@
+{
+  "Licenses": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        17
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        18
+      ]
+    ]
+  },
+  "Users": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        24
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        25
+      ]
+    ]
+  },
+  "Show user": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        31
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        32
+      ]
+    ]
+  },
+  "Dashboard": {
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        38
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        39
+      ]
+    ]
+  }
+}

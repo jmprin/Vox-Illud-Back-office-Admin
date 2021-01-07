@@ -1,0 +1,50 @@
+{
+  "First Name": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        53
+      ]
+    ]
+  },
+  "Last Name": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        62
+      ]
+    ]
+  },
+  "E-Mail": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        71
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        78
+      ]
+    ]
+  },
+  "License": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        85
+      ]
+    ]
+  },
+  "Create User": {
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        92
+      ]
+    ]
+  }
+}

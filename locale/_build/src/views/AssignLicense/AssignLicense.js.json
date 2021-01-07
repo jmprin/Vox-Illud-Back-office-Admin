@@ -1,0 +1,58 @@
+{
+  "First Name": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        99
+      ]
+    ]
+  },
+  "Last Name": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        100
+      ]
+    ]
+  },
+  "E-Mail": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        101
+      ]
+    ]
+  },
+  "License": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        102
+      ]
+    ]
+  },
+  "Users": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        114
+      ]
+    ]
+  },
+  "Account Created": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        121
+      ]
+    ]
+  },
+  "Account Deleted": {
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        150
+      ]
+    ]
+  }
+}

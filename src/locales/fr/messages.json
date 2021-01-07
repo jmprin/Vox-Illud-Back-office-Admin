@@ -18,7 +18,7 @@
     ]
   },
   "Dashboard": {
-    "translation": "Portail",
+    "translation": "Tableau de bord",
     "origin": [
       [
         "src/constants/dashboardRoutes.js",

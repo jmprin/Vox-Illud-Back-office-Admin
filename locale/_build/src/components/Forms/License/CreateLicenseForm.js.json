@@ -1,0 +1,50 @@
+{
+  "3600": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        45
+      ]
+    ]
+  },
+  "Démo": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        40
+      ]
+    ]
+  },
+  "Title": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        40
+      ]
+    ]
+  },
+  "Quota (en secondes)": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        45
+      ]
+    ]
+  },
+  "Equals to": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        48
+      ]
+    ]
+  },
+  "Create License": {
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        51
+      ]
+    ]
+  }
+}

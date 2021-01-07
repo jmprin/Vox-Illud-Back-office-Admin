@@ -5,8 +5,9 @@
   },
   "api": {
     "url": {
-      "dev": "http://localhost:1337",
-      "prod": "https://omini-api.azurewebsites.net"
+      "development": "http://localhost:1337",
+      "demo": "http://51.103.29.65:8080",
+      "production": "http://51.103.29.65:8080"
     }
   }
 }

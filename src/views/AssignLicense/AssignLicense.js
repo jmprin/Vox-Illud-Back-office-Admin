@@ -4,22 +4,12 @@ import Alert from "../../components/Alert/Alert";
 import BackdropLoader from "../../components/BackdropLoader/Backdrop";
 import {i18n} from "../../utils/i18n";
 import {default as MaterialTable} from "../../components/MaterialTable/MaterialTable";
-import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Select} from "@material-ui/core";
 import MenuItem from "@material-ui/core/MenuItem";
 import LicenseService from "../../http-services/license.service";
 import { useHistory } from "react-router-dom";
 
 import _ from "lodash";
-
-const useStyles = makeStyles({
-    root: {
-        width: '100%',
-    },
-    container: {
-        maxHeight: 440,
-    },
-});
 
 const AssignLicense = (props) => {
     const history = useHistory();
@@ -68,8 +58,6 @@ const AssignLicense = (props) => {
         getLicenses();
     }, []);
 
-    const classes = useStyles();
-
     const [page, setPage] = React.useState(0);
     const [rowsPerPage, setRowsPerPage] = React.useState(10);
     const handleChangePage = (event, newPage) => {
@@ -97,7 +85,7 @@ const AssignLicense = (props) => {
         return (
             <Select fullWidth onChange={e => props.onChange(e.target.value)} defaultValue={props.value} value={props.value}>
                 {licenses.map(license => (
-                    <MenuItem value={license._id}>{license.title}</MenuItem>
+                    <MenuItem key={license._id} value={license._id}>{license.title}</MenuItem>
                 ))}
             </Select>
         )
@@ -139,20 +127,20 @@ const AssignLicense = (props) => {
                                 }
                             })
                     }),
-                    onRowUpdate: (newData, oldData) => new Promise((resolve) => {
-                        UserService.updateUser(newData)
-                            .then(() => {
-                                getUsers(() => {
-                                    resolve();
-                                    alertRef.current.toggle('success', i18n._("Account Updated") + ` - ${newData.email}`);
-                                });
-                            })
-                            .catch(error => {
-                                if (error.response) {
-                                    alertRef.current.toggle('error', error.response.data.message);
-                                }
-                            })
-                    }),
+                    // onRowUpdate: (newData, oldData) => new Promise((resolve) => {
+                    //     UserService.updateUser(newData)
+                    //         .then(() => {
+                    //             getUsers(() => {
+                    //                 resolve();
+                    //                 alertRef.current.toggle('success', i18n._("Account Updated") + ` - ${newData.email}`);
+                    //             });
+                    //         })
+                    //         .catch(error => {
+                    //             if (error.response) {
+                    //                 alertRef.current.toggle('error', error.response.data.message);
+                    //             }
+                    //         })
+                    // }),
                     onRowDelete: (oldData) => new Promise((resolve) => {
                         UserService.deleteUser(oldData)
                             .then(response => {

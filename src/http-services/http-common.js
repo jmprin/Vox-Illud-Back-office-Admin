@@ -2,18 +2,21 @@ import axios from "axios";
 import config from '../constants/config.json';
 
 function getBaseUrl() {
-    return process.env.NODE_ENV !== "production" ? config.api.url.dev : config.api.url.prod;
-}
-
-function getJwt() {
-    return localStorage.getItem('jwt');
+ 
+    switch (process.env.NODE_ENV) {
+        case 'production':
+            return config.api.url.prod
+        case 'development':
+            return config.api.url.development
+        default:
+            return config.api.url.local
+    }
 }
 
 const instance = axios.create({
     baseURL: getBaseUrl(),
     headers: {
         "Content-type": "application/json",
-        // "x-access-token": getJwt()
     }
 });
 

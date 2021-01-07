@@ -1,0 +1,378 @@
+{
+  "3600": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        45
+      ]
+    ]
+  },
+  "Account Created": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        121
+      ]
+    ]
+  },
+  "Account Deleted": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        150
+      ]
+    ]
+  },
+  "Create License": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        51
+      ]
+    ]
+  },
+  "Create User": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        92
+      ]
+    ]
+  },
+  "Create my account": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        63
+      ]
+    ]
+  },
+  "Current Licenses:": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/License/LicenseList.js",
+        33
+      ]
+    ]
+  },
+  "Dashboard": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        38
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        39
+      ]
+    ]
+  },
+  "Démo": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        40
+      ]
+    ]
+  },
+  "E-Mail": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        18
+      ],
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        42
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        38
+      ],
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        71
+      ],
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        101
+      ]
+    ]
+  },
+  "Equals to": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        48
+      ]
+    ]
+  },
+  "First Name": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        24
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        20
+      ],
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        53
+      ],
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        99
+      ]
+    ]
+  },
+  "Go to Portal": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/Home/Home.js",
+        37
+      ]
+    ]
+  },
+  "Home": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        10
+      ]
+    ]
+  },
+  "Last Name": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        33
+      ],
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        29
+      ],
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        62
+      ],
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        100
+      ]
+    ]
+  },
+  "License": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        85
+      ],
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        102
+      ]
+    ]
+  },
+  "Licenses": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        17
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        18
+      ]
+    ]
+  },
+  "Login": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        41
+      ]
+    ]
+  },
+  "Password": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        25
+      ],
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        49
+      ],
+      [
+        "src/components/Forms/User/CreateUserForm.js",
+        78
+      ]
+    ]
+  },
+  "Password Again": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignUpForm.js",
+        56
+      ]
+    ]
+  },
+  "Quota (en secondes)": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        45
+      ]
+    ]
+  },
+  "Remember me": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        33
+      ],
+      [
+        "src/components/Forms/Auth/SignInForm.js",
+        38
+      ]
+    ]
+  },
+  "Show user": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        31
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        32
+      ]
+    ]
+  },
+  "Sign In": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        16
+      ]
+    ]
+  },
+  "Sign Up": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/routes.js",
+        21
+      ],
+      [
+        "src/views/Auth/signIn.js",
+        74
+      ]
+    ]
+  },
+  "Statistics": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/Statistics/Statistics.js",
+        51
+      ]
+    ]
+  },
+  "Title": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/License/CreateLicenseForm.js",
+        40
+      ]
+    ]
+  },
+  "Update my Profile": {
+    "translation": "",
+    "origin": [
+      [
+        "src/components/Forms/Profile/UpdateProfileForm.js",
+        45
+      ]
+    ]
+  },
+  "User Created!": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/CreateUser/CreateUser.js",
+        21
+      ]
+    ]
+  },
+  "Users": {
+    "translation": "",
+    "origin": [
+      [
+        "src/constants/dashboardRoutes.js",
+        24
+      ],
+      [
+        "src/constants/dashboardRoutes.js",
+        25
+      ],
+      [
+        "src/views/AssignLicense/AssignLicense.js",
+        114
+      ]
+    ]
+  },
+  "Welcome to the {0} Portal": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/Auth/signIn.js",
+        70
+      ],
+      [
+        "src/views/Dashboard/Dashboard.js",
+        12
+      ],
+      [
+        "src/views/Home/Home.js",
+        32
+      ]
+    ]
+  },
+  "You have to sign in to continue": {
+    "translation": "",
+    "origin": [
+      [
+        "src/views/Auth/signIn.js",
+        71
+      ]
+    ]
+  }
+}

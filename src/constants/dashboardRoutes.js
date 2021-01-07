@@ -1,10 +1,9 @@
 import React from "react";
-import Dashboard from "../views/Dashboard/Dashboard";
 import { i18n } from "../utils/i18n";
-import CreateUser from "../views/CreateUser/CreateUser";
 import License from "../views/License/License";
 import AssignLicense from "../views/AssignLicense/AssignLicense";
 import ShowUser from "../views/User/ShowUser";
+import Statistics from "../views/Statistics/Statistics";
 
 const dashboardRoutes = [
   // {
@@ -22,9 +21,9 @@ const dashboardRoutes = [
   },
   {
     show:true,
-    name: i18n._("Assign a License"),
-    title: i18n._("Assign a License"),
-    path: "/assign-license",
+    name: i18n._("Users"),
+    title: i18n._("Users"),
+    path: "/users",
     component: <AssignLicense />
   },
   {
@@ -33,6 +32,13 @@ const dashboardRoutes = [
     title: i18n._("Show user"),
     path: "/show-user/:id",
     component: <ShowUser />
+  },
+  {
+    show:true,
+    name: i18n._("Dashboard"),
+    title: i18n._("Dashboard"),
+    path: "/dashboard",
+    component: <Statistics />
   },
 ];
 

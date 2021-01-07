@@ -1,0 +1,10 @@
+{
+  "Welcome to the {0} Portal": {
+    "origin": [
+      [
+        "src/views/Dashboard/Dashboard.js",
+        12
+      ]
+    ]
+  }
+}
