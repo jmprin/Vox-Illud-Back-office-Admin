@@ -5,7 +5,7 @@ function getBaseUrl() {
  
     switch (process.env.NODE_ENV) {
         case 'production':
-            return config.api.url.prod
+            return config.api.url.production
         case 'development':
             return config.api.url.development
         default:

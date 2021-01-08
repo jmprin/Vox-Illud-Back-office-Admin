@@ -1,5 +1,10 @@
 
 const formatSeconds = (time,format=[]) => {
+
+    if(!time) {
+        time = 0;
+    }
+
     const sec_num = parseInt(time, 10);
     let hours   = Math.floor(sec_num / 3600);
     let minutes = Math.floor((sec_num - (hours * 3600)) / 60);
