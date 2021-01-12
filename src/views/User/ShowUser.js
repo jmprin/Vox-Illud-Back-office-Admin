@@ -139,8 +139,8 @@ const ShowUser = (props) => {
                     {title}
                 </InputLabel>
                 <Select fullWidth id={"select-language_"+props.name} labelId={"select-language_"+props.name} name={props.input.name}  value={props.input.value} onChange={props.input.onChange}>
-                    <MenuItem value="fr_FR">Français</MenuItem>
-                    <MenuItem value="en_EN">Anglais</MenuItem>
+                    <MenuItem value="fr-FR">Français</MenuItem>
+                    <MenuItem value="en-GB">Anglais</MenuItem>
                 </Select>
             </FormControl>
         )
@@ -214,7 +214,7 @@ const ShowUser = (props) => {
                                         </Field>
                                     </Box>
                                 </Grid>
-                                <Grid item xs={6} className={classes.mb_25}>
+                                {/* <Grid item xs={6} className={classes.mb_25}>
                                     <Box p={1}>
                                         <Field name="language_written" label={"Language"}>
                                             {props => 
@@ -222,7 +222,7 @@ const ShowUser = (props) => {
                                             }
                                         </Field>
                                     </Box>
-                                </Grid>
+                                </Grid> */}
                                 { user.auto_start_token &&
                                     <Grid container>
                                          <Grid item xs={8}>

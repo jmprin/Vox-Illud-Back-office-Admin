@@ -45,9 +45,9 @@ const Statistics = (props) => {
       }, [filterDate])
     
     const fetchSession = useCallback(async () => {
-        let stats = await StatsService.getSessions();
+        let stats = await StatsService.getSessions(filterDate);
         setSessions(stats.data);
-    }, [])
+    }, [filterDate])
 
 
     useEffect( () => {
@@ -77,11 +77,11 @@ const Statistics = (props) => {
     
     const columns = [
         { field: 'conversationId', title: "ID", minWidth: 120 },
-        { field: 'host', title: "Hôte", minWidth: 120, render: data => `${data.host.first_name} ${data.host.last_name}` },
+        { field: 'host', title: "Hôte", minWidth: 120, render: data => data.host ?  `${data.host.first_name} ${data.host.last_name}` : 'inconnu' },
         { field: 'participants', title: "Nb participants", minWidth: 120, render: data => data.participants.length === 0 ? 1 : data.participants.length},
-        { field: 'created_at', title: "Début", minWidth: 120, render: data => new Date(data.created_at).toLocaleString() },
-        { field: 'finished_at', title: "Fin", minWidth: 200, align: 'left', render: data => new Date(data.finished_at).toLocaleString() },
-        { field: 'duration', title: "Durée réelle", minWidth: 100, align: 'right',render: data => new Date(data.duration * 1000).toISOString().substr(11, 8) }
+        { field: 'created_at', title: "Début", minWidth: 120, render: data => data.created_at ?  new Date(data.created_at).toLocaleString() : 'error' },
+        { field: 'finished_at', title: "Fin", minWidth: 200, align: 'left', render: data => data.finished_at ?  new Date(data.finished_at).toLocaleString() : 'error' },
+        { field: 'duration', title: "Durée réelle", minWidth: 100, align: 'right',render: data => data.duration  ? new Date(data.duration * 1000).toISOString().substr(11, 8) : 'error' }
     ];
 
     const classes = useStyles();

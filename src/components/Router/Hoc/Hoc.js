@@ -127,7 +127,7 @@ const Hoc = ({children}) => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
-                        Espace client {config.app.name}
+                        Espace admin {config.app.name}
                     </Typography>
                     {Auth.isAuthenticated() && <Button onClick={signOut}>Se déconnecter</Button>}
                 </Toolbar>

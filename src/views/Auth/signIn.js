@@ -70,9 +70,9 @@ const SignInPage = (props) => {
                         <h1><Trans>Welcome to the {config.app.name} Portal</Trans></h1>
                         <h4><Trans>You have to sign in to continue</Trans></h4>
                         <SignInForm onSubmit={signIn} />
-                        <MuiLink button>
+                        {/* <MuiLink button>
                             <Link to={'/signup'}><Trans>Sign Up</Trans></Link>
-                        </MuiLink>
+                        </MuiLink> */}
                     </Box>
                 </Paper>
             </div>
