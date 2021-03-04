@@ -141,6 +141,7 @@ const ShowUser = (props) => {
                 <Select fullWidth id={"select-language_"+props.name} labelId={"select-language_"+props.name} name={props.input.name}  value={props.input.value} onChange={props.input.onChange}>
                     <MenuItem value="fr-FR">Français</MenuItem>
                     <MenuItem value="en-GB">Anglais</MenuItem>
+                    <MenuItem value="sv-SE">Suédois</MenuItem>
                 </Select>
             </FormControl>
         )

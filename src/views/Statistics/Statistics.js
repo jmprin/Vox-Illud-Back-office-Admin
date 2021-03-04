@@ -10,6 +10,8 @@ import { formatSeconds } from '../../utils/common';
 import { makeStyles } from '@material-ui/core/styles';
 import {Form, Field} from 'react-final-form';
 import moment from 'moment';
+import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -50,6 +52,23 @@ const Statistics = (props) => {
     }, [filterDate])
 
 
+    const downloadFile = (data) => {
+    
+        StatsService.downloadFile(data).then((response) => {
+
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', `${data.conversationId}.txt`);
+            document.body.appendChild(link);
+            link.click();
+          })
+          .catch((err)=>{
+               alert('Le fichier n\'existe pas.')
+          });
+    }
+
+
     useEffect( () => {
 
         (async () => {
@@ -83,6 +102,14 @@ const Statistics = (props) => {
         { field: 'finished_at', title: "Fin", minWidth: 200, align: 'left', render: data => data.finished_at ?  new Date(data.finished_at).toLocaleString() : 'error' },
         { field: 'duration', title: "Durée réelle", minWidth: 100, align: 'right',render: data => data.duration  ? new Date(data.duration * 1000).toISOString().substr(11, 8) : 'error' }
     ];
+
+    const actions = [
+        {
+            icon: CloudDownloadIcon,
+            tooltip: 'Télécharger conversation',
+            onClick: (event, rowData) => downloadFile(rowData)
+        }   
+    ]
 
     const classes = useStyles();
 
@@ -223,6 +250,7 @@ const Statistics = (props) => {
                         columns={columns}
                         data={sessions}
                         title={"Sessions"}
+                        actions={actions}
                         />
                     </Grid>
                 </Grid>
