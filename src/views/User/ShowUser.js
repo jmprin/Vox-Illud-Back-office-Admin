@@ -215,7 +215,7 @@ const ShowUser = (props) => {
                                         </Field>
                                     </Box>
                                 </Grid>
-                                {/* <Grid item xs={6} className={classes.mb_25}>
+                                <Grid item xs={6} className={classes.mb_25}>
                                     <Box p={1}>
                                         <Field name="language_written" label={"Language"}>
                                             {props => 
@@ -223,7 +223,7 @@ const ShowUser = (props) => {
                                             }
                                         </Field>
                                     </Box>
-                                </Grid> */}
+                                </Grid>
                                 { user.auto_start_token &&
                                     <Grid container>
                                          <Grid item xs={8}>
