@@ -55,11 +55,16 @@ const Statistics = (props) => {
     const downloadFile = (data) => {
     
         StatsService.downloadFile(data).then((response) => {
-
+            console.log(response);
             const url = window.URL.createObjectURL(new Blob([response.data]));
             const link = document.createElement('a');
             link.href = url;
-            link.setAttribute('download', `${data.conversationId}.txt`);
+            if(response.headers['content-type'] === "application/octet-stream"){
+                link.setAttribute('download', `${data.conversationId}.zip`);
+            }
+            else{
+                link.setAttribute('download', `${data.conversationId}.text`);
+            }
             document.body.appendChild(link);
             link.click();
           })
