@@ -55,7 +55,6 @@ const Statistics = (props) => {
     const downloadFile = (data) => {
     
         StatsService.downloadFile(data).then((response) => {
-            console.log(response);
             const url = window.URL.createObjectURL(new Blob([response.data]));
             const link = document.createElement('a');
             link.href = url;
@@ -63,7 +62,7 @@ const Statistics = (props) => {
                 link.setAttribute('download', `${data.conversationId}.zip`);
             }
             else{
-                link.setAttribute('download', `${data.conversationId}.text`);
+                link.setAttribute('download', `${data.conversationId}.txt`);
             }
             document.body.appendChild(link);
             link.click();
